@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title>Contact</title>
+        <style>
+            li{
+                padding-left: 10px;
+            }
+            .heading
+            {
+                padding-left: 10px;
+            }
+            .forms
+            {
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .foot
+            {
+                background-color:rgb(0, 0, 0);
+                height: 65px;
+                padding-top: 10px;
+            }
+            .content-foot
+            {
+                color:white;
+            }
+            .main-foot
+            {
+              width:100%;
+              position: absolute;
+              bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="heading">ex-ample<br>cafe</h1>
+        <hr>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="home.html" role="tab" aria-controls="pills-home" aria-selected="false">HOME</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="Menu.html" role="tab" aria-controls="pills-profile" aria-selected="false">MENU</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="recipes.html" role="tab" aria-controls="pills-contact" aria-selected="false">RECIPES</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="opening.html" role="tab" aria-controls="pills-contact" aria-selected="false">OPENING</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-contact-tab" data-toggle="pill" href="contact.html" role="tab" aria-controls="pills-contact" aria-selected="true">CONTACT</a>
+            </li>
+          </ul>
+          <hr>
+          <div class="forms">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Get in</button>
+          </form>
+        </div>
+    </body>
+    <footer class="main-foot">
+      <div class="foot">
+          <p align="center" class="content-foot">@Developers <br> Hope you all are doing great :)</p>
+      </div>
+  </footer>
+</html>
